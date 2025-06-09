@@ -20,6 +20,6 @@
   },
   "dependencies": {
     "@hopium-sdk/logger": "^0.0.4",
-    "@hopium-sdk/sqd-archive-compression": "^0.0.4"
+    "@hopium-sdk/sqd-archive-compression": "^0.0.5"
   }
 }
