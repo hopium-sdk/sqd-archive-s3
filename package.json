@@ -1,0 +1,25 @@
+{
+  "name": "@hopium-sdk/sqd-archive-s3",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "rm -rf dist && npx tsc"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "@hopium-sdk/logger": "^0.0.4",
+    "@hopium-sdk/sqd-archive-compression": "^0.0.4"
+  }
+}
